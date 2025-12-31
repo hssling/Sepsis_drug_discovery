@@ -1,0 +1,62 @@
+Gene,Symbol,Pathway,Phase_Relevance,PubMed_Count,Druggability,Description,Composite_Score,Rank
+IL6,IL6,cytokine_storm,Early,450,High,Central mediator of cytokine storm,0.916,1
+TNF,TNF,cytokine_storm,Early,380,High,Master proinflammatory cytokine,0.911,2
+IL1B,IL1B,cytokine_storm,Early,320,High,Inflammasome product,0.905,3
+TLR4,TLR4,pattern_recognition,Early,180,High,Endotoxin receptor,0.843,4
+NFKB1,NFkB,survival_signaling,Early,220,Moderate,Master inflammatory TF,0.763,5
+VEGFA,VEGFA,vascular,Early,125,High,Vascular leak,0.758,6
+CXCL8,IL8,cell_trafficking,Early,245,Moderate,Neutrophil chemokine,0.746,7
+NLRP3,NLRP3,inflammasome,Early,95,High,Inflammasome sensor,0.728,8
+JAK2,JAK2,survival_signaling,Both,88,High,Cytokine signaling kinase,0.711,9
+RELA,RelA,survival_signaling,Early,165,Moderate,NFkB subunit,0.711,10
+IL10,IL10,immunosuppression,Late,180,Moderate,Anti-inflammatory immunosuppressive,0.707,11
+CD274,PDL1,checkpoint_exhaustion,Late,78,High,Immune checkpoint ligand,0.705,12
+IFNG,IFNG,cytokine_storm,Late,145,Moderate,Th1 cytokine deficient in late sepsis,0.697,13
+PDCD1,PD1,checkpoint_exhaustion,Late,65,High,T-cell exhaustion marker,0.684,14
+STAT3,STAT3,survival_signaling,Both,145,Moderate,Central transcription factor,0.682,15
+BCL2,BCL2,apoptosis,Late,75,High,Anti-apoptotic,0.665,16
+HMGB1,HMGB1,cytokine_storm,Both,120,Moderate,DAMP alarmin late mediator,0.66,17
+F3,TF,coagulation,Early,55,High,Tissue factor coagulation,0.651,18
+CTLA4,CTLA4,checkpoint_exhaustion,Late,45,High,T-cell inhibitory receptor,0.648,19
+CD14,CD14,pattern_recognition,Early,125,Moderate,LPS co-receptor,0.647,20
+CCL2,MCP1,cell_trafficking,Early,135,Moderate,Monocyte chemoattractant,0.647,21
+PPARG,PPARG,metabolism,Late,55,High,Anti-inflammatory metabolism,0.646,22
+HIF1A,HIF1A,metabolism,Both,125,Moderate,Hypoxia master regulator,0.642,23
+CCR2,CCR2,cell_trafficking,Early,55,High,Monocyte recruitment,0.636,24
+TLR2,TLR2,pattern_recognition,Early,95,Moderate,Gram+ PAMP receptor,0.602,25
+ICAM1,ICAM1,vascular,Early,95,Moderate,Endothelial adhesion,0.597,26
+IL18,IL18,inflammasome,Early,85,Moderate,Inflammasome-derived cytokine,0.596,27
+F2R,PAR1,coagulation,Early,25,High,Thrombin receptor,0.59,28
+TGFB1,TGFB1,immunosuppression,Late,95,Moderate,Immunosuppressive cytokine,0.582,29
+NOS2,iNOS,vascular,Both,85,Moderate,Nitric oxide synthase,0.581,30
+CASP3,CASP3,apoptosis,Late,88,Moderate,Executioner caspase,0.57,31
+CASP1,CASP1,inflammasome,Early,68,Moderate,Inflammasome effector caspase,0.568,32
+VCAM1,VCAM1,vascular,Early,65,Moderate,Vascular adhesion,0.548,33
+CXCL10,CXCL10,cell_trafficking,Both,68,Moderate,IFN-induced chemokine,0.543,34
+ARG1,ARG1,myeloid_dysfunction,Late,65,Moderate,MDSC marker,0.543,35
+SERPINE1,PAI1,coagulation,Early,48,Moderate,Plasminogen activator inhibitor,0.522,36
+GSDMD,GSDMD,inflammasome,Early,42,Moderate,Pyroptosis executor,0.521,37
+HAVCR2,TIM3,checkpoint_exhaustion,Late,38,Moderate,T-cell exhaustion marker,0.518,38
+ANGPT2,ANGPT2,vascular,Early,45,Moderate,Vascular destabilizer,0.512,39
+LDHA,LDHA,metabolism,Early,45,Moderate,Lactate production,0.512,40
+IRAK4,IRAK4,pattern_recognition,Early,42,Moderate,TLR signaling kinase,0.511,41
+THBD,TM,coagulation,Both,42,Moderate,Thrombomodulin anticoagulant,0.511,42
+SELE,E-selectin,vascular,Early,42,Moderate,Leukocyte rolling,0.506,43
+SIRT1,SIRT1,metabolism,Late,42,Moderate,Metabolic regulator,0.506,44
+BAX,BAX,apoptosis,Late,48,Moderate,Pro-apoptotic,0.502,45
+EDN1,ET1,vascular,Early,38,Moderate,Vasoconstrictor,0.498,46
+PKM,PKM2,metabolism,Early,38,Moderate,Glycolytic enzyme,0.498,47
+PROCR,EPCR,coagulation,Both,35,Moderate,Endothelial protein C receptor,0.497,48
+LAG3,LAG3,checkpoint_exhaustion,Late,28,Moderate,Inhibitory receptor,0.496,49
+SLC2A1,GLUT1,metabolism,Early,32,Moderate,Glucose transporter,0.485,50
+MYD88,MYD88,pattern_recognition,Early,85,Low,TLR signaling adaptor,0.484,51
+TIGIT,TIGIT,checkpoint_exhaustion,Late,22,Moderate,NK/T-cell inhibitory,0.482,52
+PLAT,tPA,coagulation,Late,28,Moderate,Tissue plasminogen activator,0.481,53
+BTLA,BTLA,checkpoint_exhaustion,Late,15,Moderate,B/T-cell attenuator,0.462,54
+SOCS3,SOCS3,survival_signaling,Both,52,Low,JAK-STAT inhibitor,0.433,55
+SOCS1,SOCS1,survival_signaling,Both,45,Low,Negative feedback regulator,0.42,56
+S100A9,S100A9,myeloid_dysfunction,Early,52,Low,Calgranulins alarmin,0.418,57
+S100A8,S100A8,myeloid_dysfunction,Early,48,Low,Calgranulins alarmin,0.41,58
+PYCARD,ASC,inflammasome,Early,35,Low,Inflammasome adaptor,0.405,59
+AIM2,AIM2,inflammasome,Early,28,Low,DNA-sensing inflammasome,0.389,60
+HLA-DRA,HLADRA,myeloid_dysfunction,Late,35,Low,MHC class II deficiency,0.385,61

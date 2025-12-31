@@ -1,0 +1,38 @@
+Drug,Target,Related_Gene,pChEMBL,Phase,Evidence
+Tocilizumab,IL6R,IL6,8.5,4,RECOVERY trial - COVID-sepsis
+Sarilumab,IL6R,IL6,8.8,4,Approved for RA
+Siltuximab,IL6,IL6,9.0,4,Approved for Castleman
+Infliximab,TNF,TNF,9.2,4,Anti-TNF antibody
+Etanercept,TNF,TNF,8.8,4,TNF decoy receptor
+Adalimumab,TNF,TNF,9.5,4,Anti-TNF antibody
+Anakinra,IL1R,IL1B,8.0,4,SAVE-MORE trial success
+Canakinumab,IL1B,IL1B,9.3,4,Anti-IL1β antibody
+Rilonacept,IL1,IL1B,8.2,4,IL-1 trap
+Baricitinib,JAK1/2,JAK2,7.8,4,ACTT-2 COVID approval
+Ruxolitinib,JAK1/2,JAK2,7.5,4,Approved for MPN
+Tofacitinib,JAK1/2/3,JAK2,7.4,4,Approved for RA
+Upadacitinib,JAK1,JAK2,8.5,4,High selectivity
+Nivolumab,PD1,PDCD1,9.0,4,Pilot sepsis trials
+Pembrolizumab,PD1,PDCD1,9.2,4,Approved for cancer
+Atezolizumab,PDL1,CD274,8.8,4,Anti-PDL1
+Durvalumab,PDL1,CD274,8.5,4,Anti-PDL1
+Ipilimumab,CTLA4,CTLA4,8.9,4,Anti-CTLA4
+MCC950,NLRP3,NLRP3,8.5,2,Selective inhibitor
+OLT1177,NLRP3,NLRP3,7.2,2,Oral inhibitor
+Tranilast,NLRP3,NLRP3,5.5,4,Repurposing candidate
+Colchicine,NLRP3,NLRP3,5.8,4,COLCORONA trial
+Eritoran,TLR4,TLR4,7.5,3,ACCESS trial (failed)
+TAK-242,TLR4,TLR4,7.8,2,Small molecule
+Recombinant APC,PROCR,PROCR,7.0,4,Xigris (withdrawn)
+Thrombomodulin,THBD,THBD,7.2,4,Approved in Japan
+Antithrombin III,F3,F3,6.8,4,Anticoagulant
+Bevacizumab,VEGFA,VEGFA,9.5,4,Anti-VEGF
+Aflibercept,VEGFA,VEGFA,9.8,4,VEGF trap
+Glycyrrhizin,HMGB1,HMGB1,5.2,2,Natural product
+Anti-HMGB1 mAb,HMGB1,HMGB1,8.5,1,Preclinical
+Emapalumab,IFNG,IFNG,9.0,4,Approved for HLH
+Tadekinig alfa,IL18BP,IL18,7.5,3,IL-18 binding protein
+GM-CSF,CSF2RA,ARG1,7.0,3,Immunostimulant
+IFN-gamma,IFNGR,IFNG,7.2,2,Immunostimulant
+IL-7,IL7R,BCL2,7.5,2,Lymphocyte recovery
+Thymosin alpha 1,TLR2,TLR2,5.5,3,Immunomodulator

@@ -1,0 +1,62 @@
+Gene,Symbol,Pathway,Phase_Relevance,PubMed_Count,Druggability,Description
+IL6,IL6,cytokine_storm,Early,450,High,Central mediator of cytokine storm
+TNF,TNF,cytokine_storm,Early,380,High,Master proinflammatory cytokine
+IL1B,IL1B,cytokine_storm,Early,320,High,Inflammasome product
+IL18,IL18,inflammasome,Early,85,Moderate,Inflammasome-derived cytokine
+HMGB1,HMGB1,cytokine_storm,Both,120,Moderate,DAMP alarmin late mediator
+IFNG,IFNG,cytokine_storm,Late,145,Moderate,Th1 cytokine deficient in late sepsis
+IL10,IL10,immunosuppression,Late,180,Moderate,Anti-inflammatory immunosuppressive
+TGFB1,TGFB1,immunosuppression,Late,95,Moderate,Immunosuppressive cytokine
+PDCD1,PD1,checkpoint_exhaustion,Late,65,High,T-cell exhaustion marker
+CD274,PDL1,checkpoint_exhaustion,Late,78,High,Immune checkpoint ligand
+CTLA4,CTLA4,checkpoint_exhaustion,Late,45,High,T-cell inhibitory receptor
+HAVCR2,TIM3,checkpoint_exhaustion,Late,38,Moderate,T-cell exhaustion marker
+LAG3,LAG3,checkpoint_exhaustion,Late,28,Moderate,Inhibitory receptor
+TIGIT,TIGIT,checkpoint_exhaustion,Late,22,Moderate,NK/T-cell inhibitory
+BTLA,BTLA,checkpoint_exhaustion,Late,15,Moderate,B/T-cell attenuator
+NLRP3,NLRP3,inflammasome,Early,95,High,Inflammasome sensor
+CASP1,CASP1,inflammasome,Early,68,Moderate,Inflammasome effector caspase
+GSDMD,GSDMD,inflammasome,Early,42,Moderate,Pyroptosis executor
+PYCARD,ASC,inflammasome,Early,35,Low,Inflammasome adaptor
+AIM2,AIM2,inflammasome,Early,28,Low,DNA-sensing inflammasome
+F3,TF,coagulation,Early,55,High,Tissue factor coagulation
+SERPINE1,PAI1,coagulation,Early,48,Moderate,Plasminogen activator inhibitor
+THBD,TM,coagulation,Both,42,Moderate,Thrombomodulin anticoagulant
+PROCR,EPCR,coagulation,Both,35,Moderate,Endothelial protein C receptor
+PLAT,tPA,coagulation,Late,28,Moderate,Tissue plasminogen activator
+F2R,PAR1,coagulation,Early,25,High,Thrombin receptor
+HIF1A,HIF1A,metabolism,Both,125,Moderate,Hypoxia master regulator
+LDHA,LDHA,metabolism,Early,45,Moderate,Lactate production
+PKM,PKM2,metabolism,Early,38,Moderate,Glycolytic enzyme
+SLC2A1,GLUT1,metabolism,Early,32,Moderate,Glucose transporter
+PPARG,PPARG,metabolism,Late,55,High,Anti-inflammatory metabolism
+SIRT1,SIRT1,metabolism,Late,42,Moderate,Metabolic regulator
+JAK2,JAK2,survival_signaling,Both,88,High,Cytokine signaling kinase
+STAT3,STAT3,survival_signaling,Both,145,Moderate,Central transcription factor
+NFKB1,NFkB,survival_signaling,Early,220,Moderate,Master inflammatory TF
+RELA,RelA,survival_signaling,Early,165,Moderate,NFkB subunit
+SOCS1,SOCS1,survival_signaling,Both,45,Low,Negative feedback regulator
+SOCS3,SOCS3,survival_signaling,Both,52,Low,JAK-STAT inhibitor
+MYD88,MYD88,pattern_recognition,Early,85,Low,TLR signaling adaptor
+TLR4,TLR4,pattern_recognition,Early,180,High,Endotoxin receptor
+TLR2,TLR2,pattern_recognition,Early,95,Moderate,Gram+ PAMP receptor
+CD14,CD14,pattern_recognition,Early,125,Moderate,LPS co-receptor
+IRAK4,IRAK4,pattern_recognition,Early,42,Moderate,TLR signaling kinase
+ARG1,ARG1,myeloid_dysfunction,Late,65,Moderate,MDSC marker
+S100A8,S100A8,myeloid_dysfunction,Early,48,Low,Calgranulins alarmin
+S100A9,S100A9,myeloid_dysfunction,Early,52,Low,Calgranulins alarmin
+HLA-DRA,HLADRA,myeloid_dysfunction,Late,35,Low,MHC class II deficiency
+CCR2,CCR2,cell_trafficking,Early,55,High,Monocyte recruitment
+CXCL8,IL8,cell_trafficking,Early,245,Moderate,Neutrophil chemokine
+CXCL10,CXCL10,cell_trafficking,Both,68,Moderate,IFN-induced chemokine
+CCL2,MCP1,cell_trafficking,Early,135,Moderate,Monocyte chemoattractant
+VEGFA,VEGFA,vascular,Early,125,High,Vascular leak
+ANGPT2,ANGPT2,vascular,Early,45,Moderate,Vascular destabilizer
+EDN1,ET1,vascular,Early,38,Moderate,Vasoconstrictor
+NOS2,iNOS,vascular,Both,85,Moderate,Nitric oxide synthase
+ICAM1,ICAM1,vascular,Early,95,Moderate,Endothelial adhesion
+VCAM1,VCAM1,vascular,Early,65,Moderate,Vascular adhesion
+SELE,E-selectin,vascular,Early,42,Moderate,Leukocyte rolling
+BCL2,BCL2,apoptosis,Late,75,High,Anti-apoptotic
+BAX,BAX,apoptosis,Late,48,Moderate,Pro-apoptotic
+CASP3,CASP3,apoptosis,Late,88,Moderate,Executioner caspase

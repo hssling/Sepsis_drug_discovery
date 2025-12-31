@@ -1,0 +1,81 @@
+# Sepsis HDT Pipeline Configuration
+
+project:
+  name: "Sepsis Host-Directed Therapy Pipeline"
+  author: "Dr. Siddalingaiah H S"
+  version: "1.0.0"
+  date: "2024-12-31"
+
+# Gene signature parameters
+gene_signature:
+  source: "Multi-GEO transcriptomic meta-analysis"
+  total_genes: 60
+  pathways:
+    - cytokine_storm
+    - checkpoint_exhaustion
+    - inflammasome
+    - coagulation
+    - metabolism
+    - survival_signaling
+
+# Database versions
+databases:
+  chembl: "v33"
+  opentargets: "24.09"
+  mygene: "v3"
+
+# Target prioritization weights
+scoring:
+  omics_strength: 0.35
+  opentargets_evidence: 0.25
+  druggability_proxy: 0.20
+  pathway_centrality: 0.10
+  replication: 0.10
+
+# Compound filtering
+compounds:
+  min_pchembl: 6.0  # IC50 <= 1 µM
+  min_confidence: 7
+  activity_types:
+    - IC50
+    - Ki
+    - Kd
+    - EC50
+
+# Clinical phase filtering
+clinical_phases:
+  include:
+    - 4  # Approved
+    - 3  # Phase III
+    - 2  # Phase II
+
+# GEO datasets for sepsis signature
+geo_datasets:
+  - id: "GSE185263"
+    description: "Sepsis vs SIRS blood transcriptomes"
+    samples: 479
+    platform: "RNA-seq"
+  - id: "GSE154918"
+    description: "COVID-sepsis overlap"
+    samples: 100
+    platform: "RNA-seq"
+  - id: "GSE65682"
+    description: "MARS cohort sepsis"
+    samples: 802
+    platform: "Microarray"
+  - id: "GSE134347"
+    description: "Septic shock severity"
+    samples: 51
+    platform: "RNA-seq"
+  - id: "GSE69528"
+    description: "Pediatric sepsis"
+    samples: 162
+    platform: "Microarray"
+
+# Output settings
+output:
+  figures:
+    dpi: 300
+    format: "png"
+  tables:
+    format: "csv"
