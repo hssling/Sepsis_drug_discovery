@@ -172,7 +172,7 @@ def figure4_pathway_heatmap():
 
 def figure5_sepsis_timeline():
     """Figure 5: Sepsis Immune Response Timeline with HDT Opportunities"""
-    fig, ax = plt.subplots(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(14, 9))  # Increased height
     
     # Timeline
     time_points = [0, 24, 48, 72, 120, 168]
@@ -191,30 +191,30 @@ def figure5_sepsis_timeline():
     ax.plot(x, immunosuppression, 'b-', linewidth=2)
     
     # Annotate phases
-    ax.annotate('CYTOKINE\nSTORM', xy=(30, 80), fontsize=11, fontweight='bold', color='darkred', ha='center')
-    ax.annotate('IMMUNE\nPARALYSIS', xy=(120, 50), fontsize=11, fontweight='bold', color='darkblue', ha='center')
+    ax.annotate('CYTOKINE\\nSTORM', xy=(30, 75), fontsize=11, fontweight='bold', color='darkred', ha='center')
+    ax.annotate('IMMUNE\\nPARALYSIS', xy=(120, 45), fontsize=11, fontweight='bold', color='darkblue', ha='center')
     
-    # HDT intervention arrows
-    ax.annotate('', xy=(24, 90), xytext=(24, 105),
+    # HDT intervention arrows - positioned lower
+    ax.annotate('', xy=(24, 85), xytext=(24, 100),
                 arrowprops=dict(arrowstyle='->', color='green', lw=2))
-    ax.text(24, 108, 'Anti-IL6\nNLRP3 inhibitors\nJAK inhibitors', ha='center', fontsize=9, color='green')
+    ax.text(24, 103, 'Anti-IL6\\nNLRP3 inhibitors\\nJAK inhibitors', ha='center', fontsize=9, color='green')
     
-    ax.annotate('', xy=(100, 55), xytext=(100, 70),
+    ax.annotate('', xy=(100, 50), xytext=(100, 65),
                 arrowprops=dict(arrowstyle='->', color='purple', lw=2))
-    ax.text(100, 73, 'Checkpoint inhibitors\nGM-CSF\nIL-7', ha='center', fontsize=9, color='purple')
+    ax.text(100, 68, 'Checkpoint inhibitors\\nGM-CSF\\nIL-7', ha='center', fontsize=9, color='purple')
     
     ax.set_xlabel('Time from Sepsis Onset (hours)', fontsize=12, fontweight='bold')
     ax.set_ylabel('Immune Response Intensity', fontsize=12, fontweight='bold')
-    ax.set_title('Sepsis Immune Response Timeline and HDT Intervention Windows', fontsize=14, fontweight='bold')
+    ax.set_title('Sepsis Immune Response Timeline and HDT Intervention Windows', fontsize=14, fontweight='bold', pad=15)
     
     ax.axvline(x=72, color='gray', linestyle='--', alpha=0.5)
     ax.text(72, 5, 'Phase transition (~72h)', rotation=90, va='bottom', fontsize=9, color='gray')
     
     ax.set_xlim(0, 168)
-    ax.set_ylim(0, 120)
+    ax.set_ylim(0, 130)  # Increased to prevent cutoff
     ax.legend(loc='upper right')
     
-    plt.tight_layout()
+    plt.tight_layout(pad=2.0)  # Added padding
     plt.savefig(BASE_DIR / 'outputs' / 'figures' / 'figure5_sepsis_timeline.png', dpi=300, bbox_inches='tight')
     plt.close()
     print("Created: figure5_sepsis_timeline.png")
